@@ -3,5 +3,5 @@
 
 int	main()
 {
-	printf("%d\n", ABS(456));
+	printf("%d\n", ABS(-456));
 }

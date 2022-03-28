@@ -7,15 +7,15 @@
 #include <stdio.h>
 int	main()
 {
-	int min = -5;
-	int max = 2;
+	int min = -45123;
+	int max = 45;
 	int	*range;
 	int	size;
 	int	i;
 
 	i = 0;
 	size = (min * (- 1)) + max;
-	range = (int *)malloc(size);
+	range = (int *)malloc(sizeof(int) * size);
 	while (i < size)
 	{
 		range[i] = min;
