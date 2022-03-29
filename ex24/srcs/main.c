@@ -14,8 +14,8 @@ int	main(void)
 
 	ft_putstr("testing makefile\n");
 	printf("1 = %d\n", ft_strcmp(a, b));
-	printf("19 = %d\n", ft_strlen("testing makefile\n"));
+	printf("17 = %d\n", ft_strlen("testing makefile\n"));
 	ft_swap(&x, &y);
-	printf("before x value was 5 now is %d, and y was 7 now is 5 %d\n", x, y);
+	printf("before x value was 5 now is %d, and y was 7 now is %d\n", x, y);
 
 }
