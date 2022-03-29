@@ -1,11 +1,3 @@
-# SRCS=./srcs/ft_putchar.c ./srcs/ft_putstr.c \
-# ./srcs/ft_putcmp.c ./srcs/ft_strlen.c ./srcs/ft_swap.c
-
-# INCLUDES=./includes/ft_putchar.h ./includes/ft_putstr.h \
-# ./includes/ft_strcmp.h ./includes/ft_strlen.h ./includes/ft_swap.h
-
-# OBJS=${SRCS:.c=.o}
-
 CC=gcc
 
 CC_FLAGS=-Wall -Werror -Wextra

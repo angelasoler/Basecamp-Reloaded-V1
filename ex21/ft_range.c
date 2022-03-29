@@ -6,7 +6,7 @@
 /*   By: asoler <asoler@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 20:45:13 by asoler            #+#    #+#             */
-/*   Updated: 2022/03/28 15:31:14 by asoler           ###   ########.fr       */
+/*   Updated: 2022/03/29 16:37:50 by asoler           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,23 +28,4 @@ int	*ft_range(int min, int max)
 		min++;
 	}
 	return(range);
-}
-
-#include <stdio.h>
-int	main()
-{
-	int *range;
-	int size;
-	int i;
-
-	// range;
-	size = sizeof(range) / sizeof(range[0]);
-	range = ft_range(-5, 8);
-	i = 0;
-	while (i < size)
-	{
-		printf("%d\n", range[i]);
-		i++;
-	}
-	free(range);
 }
